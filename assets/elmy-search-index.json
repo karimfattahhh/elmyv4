@@ -1,0 +1,285 @@
+[
+  {
+    "file": "index.html",
+    "title": "Home",
+    "sections": [
+      {
+        "id": "systems",
+        "label": "What we offer",
+        "keywords": "learning resources institutional solutions institutional assessment benchmark sat psat toefl ielts"
+      },
+      {
+        "id": "clients",
+        "label": "Schools and education providers",
+        "keywords": "testprep prepme clients 6000 students"
+      },
+      {
+        "id": "model",
+        "label": "How to work with us",
+        "keywords": "talk scope deliver report"
+      },
+      {
+        "id": "platform",
+        "label": "The technology behind our work",
+        "keywords": "platform video"
+      }
+    ]
+  },
+  {
+    "file": "our-work.html",
+    "title": "Our work",
+    "sections": [
+      {
+        "id": "projects",
+        "label": "Institutional project",
+        "keywords": "recruitment testing 1400 candidates humanitarian case study"
+      },
+      {
+        "id": "client-stories",
+        "label": "Client stories",
+        "keywords": "testprep blogs articles case studies"
+      }
+    ]
+  },
+  {
+    "file": "about.html",
+    "title": "About Elmy",
+    "sections": [
+      {
+        "id": "origin",
+        "label": "Our story",
+        "keywords": "founded 2024 lebanon"
+      },
+      {
+        "id": "numbers",
+        "label": "Elmy in numbers",
+        "keywords": "students candidates schools"
+      },
+      {
+        "id": "expertise",
+        "label": "Our team",
+        "keywords": "specialists project team"
+      }
+    ]
+  },
+  {
+    "file": "resources.html",
+    "title": "Learning Resources & Insights",
+    "sections": [
+      {
+        "id": "coverage",
+        "label": "Available exams",
+        "keywords": "sat psat toefl ielts preparation resources available"
+      },
+      {
+        "id": "evidence",
+        "label": "Insights",
+        "keywords": "reports student class question progress"
+      },
+      {
+        "id": "results",
+        "label": "Resources in practice",
+        "keywords": "testprep teaching progress case studies"
+      },
+      {
+        "id": "academic-support",
+        "label": "Academic support",
+        "keywords": "specialists review results teaching consultation"
+      }
+    ]
+  },
+  {
+    "file": "institutional.html",
+    "title": "Institutional Solutions",
+    "sections": [
+      {
+        "id": "solutions",
+        "label": "What we deliver",
+        "keywords": "recruitment testing assessment content digital delivery"
+      },
+      {
+        "id": "team",
+        "label": "Your project team",
+        "keywords": "project manager test day"
+      },
+      {
+        "id": "pilot",
+        "label": "Start with a pilot",
+        "keywords": "pilot scale"
+      },
+      {
+        "id": "case-studies",
+        "label": "Project examples",
+        "keywords": "1400 candidates humanitarian"
+      }
+    ]
+  },
+  {
+    "file": "assessment.html",
+    "title": "Institutional Assessment",
+    "sections": [
+      {
+        "id": "reporting",
+        "label": "What you will get",
+        "keywords": "student class school reports"
+      },
+      {
+        "id": "interest",
+        "label": "Register interest",
+        "keywords": "school requirements participation development"
+      }
+    ]
+  },
+  {
+    "file": "get-started.html",
+    "title": "Contact us",
+    "sections": [
+      {
+        "id": "resources",
+        "label": "Request a resource brief",
+        "keywords": "sat brief"
+      },
+      {
+        "id": "discovery",
+        "label": "Discuss an Institutional Project",
+        "keywords": "project government ngo"
+      },
+      {
+        "id": "assessment",
+        "label": "Register Interest in Institutional Assessment",
+        "keywords": "benchmark schools"
+      },
+      {
+        "id": "careers",
+        "label": "Careers",
+        "keywords": "jobs work team specialists"
+      }
+    ]
+  },
+  {
+    "file": "stories/testprep.html",
+    "title": "TestPrep client story",
+    "sections": [
+      {
+        "id": "context",
+        "label": "The starting point",
+        "keywords": "testprep sat"
+      },
+      {
+        "id": "changed",
+        "label": "What Elmy provides",
+        "keywords": "diagnostic practice reports"
+      },
+      {
+        "id": "today",
+        "label": "How it works today",
+        "keywords": "teachers"
+      }
+    ]
+  },
+  {
+    "file": "case-studies/assessment-at-scale.html",
+    "title": "Recruitment testing for 1,400 candidates",
+    "sections": [
+      {
+        "id": "challenge",
+        "label": "The challenge",
+        "keywords": "recruitment"
+      },
+      {
+        "id": "implementation",
+        "label": "Preparing for test day",
+        "keywords": "dry run"
+      },
+      {
+        "id": "impact",
+        "label": "The results",
+        "keywords": "zero failures same day three days"
+      }
+    ]
+  },
+  {
+    "file": "privacy.html",
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "id": "information",
+        "label": "Information we collect",
+        "keywords": "data"
+      },
+      {
+        "id": "rights",
+        "label": "Your rights",
+        "keywords": "access delete"
+      },
+      {
+        "id": "retention",
+        "label": "Retention",
+        "keywords": "keep"
+      }
+    ]
+  },
+  {
+    "file": "terms.html",
+    "title": "Terms of Service",
+    "sections": [
+      {
+        "id": "use",
+        "label": "Using the site",
+        "keywords": "terms"
+      },
+      {
+        "id": "agreements",
+        "label": "Agreements",
+        "keywords": "contracts"
+      },
+      {
+        "id": "law",
+        "label": "Governing law",
+        "keywords": "law"
+      }
+    ]
+  },
+  {
+    "file": "cookies.html",
+    "title": "Cookie Policy",
+    "sections": [
+      {
+        "id": "inventory",
+        "label": "Cookies we use",
+        "keywords": "cookies"
+      },
+      {
+        "id": "choices",
+        "label": "Your choices",
+        "keywords": "settings"
+      },
+      {
+        "id": "external",
+        "label": "External services",
+        "keywords": "third party"
+      }
+    ]
+  },
+  {
+    "file": "accessibility.html",
+    "title": "Accessibility",
+    "sections": [
+      {
+        "id": "features",
+        "label": "Features",
+        "keywords": "accessibility"
+      },
+      {
+        "id": "limits",
+        "label": "Known limits",
+        "keywords": "limits"
+      },
+      {
+        "id": "feedback",
+        "label": "Feedback",
+        "keywords": "contact"
+      }
+    ]
+  }
+]

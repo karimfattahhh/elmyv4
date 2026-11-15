@@ -1,0 +1,187 @@
+/* Shared Elmy interaction tokens; independent of Tailwind's generic --accent. */
+:root {
+  --elmy-cta-start: #4359ed;
+  --elmy-cta-middle: #2945dc;
+  --elmy-cta-end: #2535ae;
+  --elmy-cta-gradient: linear-gradient(
+    135deg,
+    var(--elmy-cta-start),
+    var(--elmy-cta-middle) 55%,
+    var(--elmy-cta-end)
+  );
+  --elmy-motion-fast: 180ms;
+  --elmy-motion-state: 280ms;
+  --elmy-motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* Specificity is intentional: retire legacy per-page fills without changing geometry. */
+body
+  :is(
+    .btn-primary,
+    .rr-button:not(.alt),
+    .ab-button:not(.ab-secondary),
+    #contact-submit,
+    .et-demo,
+    .ow-hero-link
+  ) {
+  background: var(--elmy-cta-gradient) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+  box-shadow: 0 5px 14px #15295e22 !important;
+  text-shadow: none !important;
+  filter: none !important;
+  opacity: 1;
+  animation: none !important;
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition:
+    box-shadow var(--elmy-motion-fast),
+    border-color var(--elmy-motion-fast) !important;
+}
+body
+  :is(
+    .btn-primary,
+    .rr-button:not(.alt),
+    .ab-button:not(.ab-secondary),
+    #contact-submit,
+    .ow-hero-link
+  )::before {
+  content: none !important;
+}
+body
+  :is(
+    .btn-primary,
+    .rr-button:not(.alt),
+    .ab-button:not(.ab-secondary),
+    #contact-submit,
+    .ow-hero-link
+  )::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #ffffff16, #ffffff00) !important;
+  opacity: 0;
+  transform: none !important;
+  pointer-events: none;
+  transition: opacity var(--elmy-motion-fast) !important;
+  animation: none !important;
+}
+body
+  :is(
+    .btn-primary,
+    .rr-button:not(.alt),
+    .ab-button:not(.ab-secondary),
+    #contact-submit,
+    .ow-hero-link
+  ):is(:hover, :focus-visible) {
+  transform: none !important;
+  box-shadow: 0 7px 18px #15295e30 !important;
+}
+body
+  :is(
+    .btn-primary,
+    .rr-button:not(.alt),
+    .ab-button:not(.ab-secondary),
+    #contact-submit,
+    .ow-hero-link
+  ):is(:hover, :focus-visible)::after {
+  opacity: 1;
+}
+body :is(.btn, .rr-button, .ab-button, .support-level > a, .ow-hero-link) {
+  min-height: 48px !important;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body :is(.btn, .rr-button, .ab-button, .support-level > a, .ow-hero-link):focus-visible {
+  outline: 3px solid #7b98ff !important;
+  outline-offset: 4px !important;
+}
+body :is(.btn-ghost, .rr-button.alt, .ab-button.ab-secondary) {
+  background-image: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+  transform: none !important;
+  transition:
+    background-color var(--elmy-motion-fast),
+    border-color var(--elmy-motion-fast) !important;
+}
+body :is(.btn-ghost, .rr-button.alt, .ab-button.ab-secondary)::after {
+  content: none !important;
+}
+body #contact-submit:disabled {
+  background: #e2e7f0 !important;
+  color: #58677d !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+body #contact-submit:disabled::after {
+  content: none;
+}
+body :is(.btn, .rr-button, .ab-button) svg {
+  flex-shrink: 0;
+  transition: transform var(--elmy-motion-fast) var(--elmy-motion-ease);
+}
+@media (hover: hover) {
+  body :is(.btn, .rr-button, .ab-button):hover svg {
+    transform: translateX(2px);
+  }
+}
+
+/* Text never relies on a scroll reveal to become readable. */
+body[data-elmy-motion] :is(.reveal, .rr-reveal, .ab-reveal, .pp-reveal) {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+body[data-elmy-motion] :is(.ab-layer, .ab-art-center, .ow-document, .resource-layer) {
+  animation: none !important;
+  transition: border-color var(--elmy-motion-fast);
+}
+body[data-elmy-motion] [data-motion-loop],
+body[data-elmy-motion] [data-motion-loop] *,
+body[data-elmy-motion] [data-motion-loop]::before,
+body[data-elmy-motion] [data-motion-loop]::after,
+body[data-elmy-motion] [data-motion-loop] *::before,
+body[data-elmy-motion] [data-motion-loop] *::after {
+  animation-play-state: var(--elmy-loop-state, paused) !important;
+}
+/* Same compact dock behavior on every tablet layout. */
+@media (max-width: 1100px) {
+  body.institutional-refinement .elmy-tools {
+    top: auto;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    right: 12px;
+    transform: none;
+    flex-direction: row;
+    gap: 4px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  body.institutional-refinement .elmy-tools > * {
+    width: 44px;
+    height: 44px;
+    border-radius: 15px;
+  }
+  body.institutional-refinement .elmy-tools span {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  body *,
+  body *::before,
+  body *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  body :is(.btn, .rr-button, .ab-button):hover svg {
+    transform: none;
+  }
+}

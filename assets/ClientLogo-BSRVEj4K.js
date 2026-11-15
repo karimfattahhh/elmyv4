@@ -1,0 +1,1 @@
+import{n as e,r as t}from"./site-url-CxJvlrfJ.js";var n=t();function r({name:t}){return(0,n.jsx)(`img`,{className:`master-client-logo`,src:e(`/assets/brands/${t.toLowerCase()}.png`),alt:t,width:`250`,height:t===`TestPrep`?`168`:`139`,loading:`lazy`})}export{r as t};
