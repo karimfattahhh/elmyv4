@@ -6,7 +6,7 @@ This repository contains the generated static Elmy V4 website for GitHub Pages. 
 
 ## Release provenance
 
-Editable master source revision: `43865d685e059b03da511b100c88d1fcb3ed48d9`.
+Editable master source revision: `43ebb151b7bcc274a6ded8d5ed5a7fc7a6c4c45d`.
 
 The React/TanStack source, internal review documents and management presentation are maintained separately. Only the static website export is published here. See `release.json` for the build timestamp. GitHub Pages publishes `main` from `/`.
 
